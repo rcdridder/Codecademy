@@ -1,0 +1,109 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 0.9);
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* navbar styling */
+.navbar {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+}
+
+.links {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.links a {
+    padding: 0 5px;
+    text-decoration: underline;
+    color: rgba(255, 245, 238, 0.9);
+}
+
+/* mission styling */
+.mission {
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    background-image: url(../images/6-mission-background.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.missiontext {
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+}
+
+/* tea of the month styling */ 
+.teaofthemonth {
+    width: 1000px;
+}
+
+.tealist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tealist img {
+    height: 200px;
+    width: 300px;
+}
+
+.tealist h4 {
+    margin: 10px 0;
+}
+
+.tealist div {
+    margin: 0.5em;
+}
+
+/* locations styling */
+.locations {
+    height: 500px;
+    background-image: url(../images/5-locations-background.jpg);
+    background-size: cover;
+}
+
+.locationslist {
+    display: flex;
+    align-items: center;
+}
+
+.locationslist div {
+    width: 300px;
+    height: fit-content;
+    margin: 15px 40px;
+    background-color: black;
+}
+
+/* contact styling */
+.contact {
+    height: 200px;
+}
+
+footer {
+    margin-top: 20px;
+    align-self: start;
+}
